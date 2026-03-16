@@ -57,11 +57,11 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
+  - {t: \, s: '|'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '-', s: _}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
@@ -72,11 +72,11 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - HOME
+  - '*'
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
@@ -86,11 +86,11 @@ layers:
   - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
-  - END
+  - {t: '0', s: )}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: ., s: '>'}
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
